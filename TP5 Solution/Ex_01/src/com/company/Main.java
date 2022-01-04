@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static String ScannerInputSring(String text) {
+	//Main
         System.out.println(text);
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
