@@ -1,0 +1,11 @@
+	Parameters: This method do not accepts any parameter.
+
+Return Value: The function returns boolean data type. The function returns true if directory is created else returns false.
+
+
+
+Exception: This method throws SecurityException if the method does not allow directory to be created
+
+Below programs will illustrate the use of mkdirs() function:
+
+Example 1: Try to create a new directory named program in “f:” drive.

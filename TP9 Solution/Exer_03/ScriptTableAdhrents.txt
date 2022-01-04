@@ -1,0 +1,16 @@
+CREATE TABLE `Adherents` (
+	`IdAdhr` INT NOT NULL,
+	`Nom` VARCHAR(50) NOT NULL,
+	`Prenom` VARCHAR(50) NOT NULL,
+	`DateInscrp` DATE NOT NULL,
+	`Tel` VARCHAR(25) NOT NULL,
+	`Login` VARCHAR(25) NOT NULL,
+	`MotPass` VARCHAR(25) NOT NULL,
+	`Montant` DECIMAL(20,6) NOT NULL DEFAULT 0,
+	`Adresse` TEXT NOT NULL,
+	`Sexe` BIT NOT NULL DEFAULT 0,
+	`TypesB` TEXT NOT NULL,
+	PRIMARY KEY (`IdAdhr`)
+)
+COLLATE='latin1_swedish_ci'
+;
