@@ -10,12 +10,12 @@ public class PersonneTestBis {
     public static void main(String[] args) {
         ArrayList<Personne> personnes = new ArrayList<>();
 
-        Personne personne1 = new Personne(1, "mohmed", "banouge");
-        Personne personne2 = new Personne(2, "hicham", "lasri");
-        Personne personne3 = new Personne(3, "abde", "wadi");
+        Personne personne1 = new Personne(1, "fatmi", "amine");
+        Personne personne2 = new Personne(2, "lasri", "hicham");
+        Personne personne3 = new Personne(3, "wadi", "abdellah");
         Personne personne4 = new Personne(4, "zak", "aabdi");
-        Personne personne5 = new Personne(5, "mohmed", "Abanouge");
-        Personne personne6 = new Personne(6, "yadi", "aabdi");
+        Personne personne5 = new Personne(5, "mohmed", "banouge");
+        Personne personne6 = new Personne(6, "yadi", "abdellah");
 
         personnes.add(personne1);
         personnes.add(personne2);
